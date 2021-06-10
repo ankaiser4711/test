@@ -1,14 +1,15 @@
 #include <EloquentTinyML.h>
 
 /*
-folgende moeglichkeiten zur einbindung von modellen bestehen:
+possible ways to load a model
  * als C/C++ headerfile
- * laden von sdcard
- * laden von spiffs
- * laden über http
+ * load from sdcard
+ * load from spiffs
+ * load via http
 */
 
-// !!! NUR EINE ZEILE EINKOMMENTIEEN !!!
+// !!! UNCOMMENT ONLY 1 LINE !!!
+
 //#define MODEL_INCLUDE_TYPE_CPP
 //#define MODEL_INCLUDE_TYPE_SDCARD
 #define MODEL_INCLUDE_TYPE_SPIFFS
@@ -64,7 +65,7 @@ void dumpModel(const char* lpszTitle, uint8_t *model, int model_len)
   const int NUMBER_OF_INPUTS  = 26;
   const int NUMBER_OF_OUTPUTS = 12;
 
-  const char* getLabel(int idx)
+  const char* getLabel(int idx) //location
   {
       switch (idx)
       {
