@@ -12,8 +12,8 @@ change way to load model within tfliteardui no.ino:
 
 // !!! UNCOMMENT ONLY 1 LINE !!!
 
-//#define MODEL_INCLUDE_TYPE_CPP
-//#define MODEL_INCLUDE_TYPE_SDCARD
-#define MODEL_INCLUDE_TYPE_SPIFFS
-//#define MODEL_INCLUDE_TYPE_HTTP
+ //#define MODEL_INCLUDE_TYPE_CPP
+ //#define MODEL_INCLUDE_TYPE_SDCARD
+ #define MODEL_INCLUDE_TYPE_SPIFFS
+ //#define MODEL_INCLUDE_TYPE_HTTP
 
