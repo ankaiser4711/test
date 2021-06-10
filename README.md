@@ -8,7 +8,7 @@ possible ways to load a model
  * load from spiffs
  * load via http
 
-change way to load model within tfliteardui no.ino:
+change way to load model within tflitearduino.ino:
 
 // !!! UNCOMMENT ONLY 1 LINE !!!
 
